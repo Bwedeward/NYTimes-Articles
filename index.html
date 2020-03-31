@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>NYT Articles</title>
+</head>
+<body>
+    
+    
+    <div class="jumbotron jumbotron-fluid topTitle">
+        <div class="container">
+            <i class="far fa-newspaper"></i>
+          <h1 class="display-4 ny-title">New York Times</h1>
+        </div>
+      </div>
+
+      <div class="searchParameters container">
+        
+        <div class="card searchCard">
+            <h5 class="card-header">Search Parameters</h5>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Search Term:</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Number of Records Retrieved</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>1</option>
+                          <option>3</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Start Year:</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">End Year:</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>  
+                    
+                    <button type="submit" class="btn btn-primary" id= "run-search">Search</button>
+                    <button type="button" class="btn btn-primary" id= "clear-all">Clear Results</button>
+                </form>
+            </div>
+           
+            </div>
+            
+              <div class="card topArticles">
+                <h5 class="card-header">Top Articles</h5>
+                <div class="card-body">
+                </div>
+                </div>
+                          
+            
+            
+            
+
+               
+            </div>
+         
+        
+      </div>
+
+
+      <div class="topArticles">
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="assets/javascript/article.js"></script>
+</body>
+</html>

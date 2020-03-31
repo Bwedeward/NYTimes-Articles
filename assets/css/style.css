@@ -1,0 +1,32 @@
+.searchCard {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.card-header {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 4px;
+}
+
+.ny-title {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+}
+
+.topTitle {
+    background-color: navy;
+    text-align: center;
+    color: #cccccc;
+}
+
+.btn {
+    margin-bottom: 10px;
+    background-color: navy;
+}
+
+.topArticles {
+    margin-top: 30px;
+}
