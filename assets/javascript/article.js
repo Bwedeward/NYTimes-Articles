@@ -6,14 +6,20 @@
 //Then and function for response
 //Display response
 
-var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=fq&MAGrWnieaVgAmwWdMRUtgxF9sZeXHeKJ"
+$("#run-search").on("click", function() {
+
+var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q={query}&fq={filter}&MAGrWnieaVgAmwWdMRUtgxF9sZeXHeKJ"
 
 $.ajax ({
-    url: queryURL
+    url: queryURL,
     method: "GET"
 });
 
+
 .then(function(response){
-   
+   console.log(response)
+    
+
+});
 
 });
